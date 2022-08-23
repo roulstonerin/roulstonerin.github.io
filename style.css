@@ -1,0 +1,130 @@
+body {
+  background-color: #faf8f8;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Aboreto', cursive;
+  letter-spacing: 8px;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.topnav a {
+  color: black;
+  margin-right: 100px;
+  float: right;
+  padding: 0px -40px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Avenir";
+}
+
+.topnav a:hover {
+  color: rgb(186, 67, 105);
+}
+
+.pink {
+  color: rgb(186, 67, 105);
+  padding-left: 9px;
+}
+
+h3 {
+  font-family: "Avenir";
+  padding-left: 100px;
+  color: rgb(241, 123, 161);
+  display: flex;
+}
+
+h2 {
+  font-family: "Avenir";
+  padding: 0px 100px;
+  display: flex;
+}
+
+p {
+  font-family: "Avenir";
+  padding: 0px 100px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 30px 50px;
+  float: left;
+  width: 49.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 3px 4px 5px lightgray;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text {
+  color: black;
+  font-size: 45px;
+  font-family: "Avenir";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.massive_container {
+  padding-left: 46px;
+  padding-right: 46px;
+}

@@ -1,0 +1,198 @@
+/* nav bar */
+body {
+    background-color: #faf8f8;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Aboreto', cursive;
+    letter-spacing: 8px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.topnav a {
+    color: black;
+    margin-right: 100px;
+    float: right;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Avenir";
+}
+
+.topnav a:hover {
+    color: rgb(186, 67, 105);
+}
+
+/* articles */
+
+.massive_container {
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.hero {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.article-image {
+    border-radius: 30px;
+    width: 35%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipe-image {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(186, 67, 105);
+    padding: 50px;
+}
+
+.blurb-container {
+    width: 32%;
+    height: auto;
+    display: block;
+    border: 3px solid rgba(176, 176, 176, 0.2);
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+
+}
+
+.blurb-container-about {
+    width: 30%;
+    height: auto;
+    display: block;
+    border: 3px solid rgba(176, 176, 176, 0.2);
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    border-radius: 30px;
+
+}
+
+.blurb-text {
+    line-height: 30px;
+    font-family: "Avenir";
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Avenir";
+    padding: 0px 100px;
+    display: flex;
+    color: rgb(241, 123, 161);
+}
+
+.pink {
+    font-family: "Avenir";
+    padding-left: 100px;
+    color: rgb(241, 123, 161);
+    display: inline-block;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Avenir";
+    padding: 10px 100px;
+}
+
+.beside-pink {
+    font-size: 18px;
+    font-family: "Avenir";
+    display: inline-block;
+    padding-left: 0px;
+}
+
+p.about-text {
+    font-size: 18px;
+    font-family: "Avenir";
+    padding: 0px 50px;
+}
+
+.hero-right {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    float: right;
+    padding-right: 100px;
+}
+
+.title-about {
+    text-align: left;
+    font-family: "Avenir";
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(186, 67, 105);
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 32%;
+    height: auto;
+    display: block;
+
+}
+
+.title-intouch {
+    text-align: left;
+    font-family: "Avenir";
+    margin: auto;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(186, 67, 105);
+    padding-top: 80px;
+    padding-right: 80px;
+    width: 32%;
+    height: auto;
+    display: block;
+}
+
+.bold {
+    font-weight: bolder;
+    font-family: "Avenir";
+    display: inline-block
+}
+
+.contact a {
+    color: black;
+    padding: 0px -40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Avenir";
+
+}
+
+.contact a:hover {
+    color: rgb(186, 67, 105);
+}
+
+a.resume {
+    color: rgb(186, 67, 105);
+}
