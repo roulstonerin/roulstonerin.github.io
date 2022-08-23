@@ -19,7 +19,7 @@ h1 {
     padding: 0px -40px;
     text-decoration: none;
     font-size: 18px;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
 }
 
 .topnav a:hover {
@@ -64,7 +64,7 @@ h1 {
 
 .title {
     text-align: center;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: bold;
     color: rgb(186, 67, 105);
@@ -98,19 +98,19 @@ h1 {
 
 .blurb-text {
     line-height: 30px;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
 }
 
 h2 {
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     padding: 0px 100px;
     display: flex;
     color: rgb(241, 123, 161);
 }
 
 .pink {
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     padding-left: 100px;
     color: rgb(241, 123, 161);
     display: inline-block;
@@ -118,20 +118,20 @@ h2 {
 
 p {
     font-size: 18px;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     padding: 10px 100px;
 }
 
 .beside-pink {
     font-size: 18px;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     display: inline-block;
     padding-left: 0px;
 }
 
 p.about-text {
     font-size: 18px;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     padding: 0px 50px;
 }
 
@@ -147,7 +147,7 @@ p.about-text {
 
 .title-about {
     text-align: left;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     margin: auto;
     font-size: 50px;
     font-weight: bold;
@@ -162,7 +162,7 @@ p.about-text {
 
 .title-intouch {
     text-align: left;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     margin: auto;
     font-size: 50px;
     font-weight: bold;
@@ -176,7 +176,7 @@ p.about-text {
 
 .bold {
     font-weight: bolder;
-    font-family: "Avenir";
+    font-family: 'Poppins', sans-serif;
     display: inline-block
 }
 
@@ -185,8 +185,7 @@ p.about-text {
     padding: 0px -40px;
     text-decoration: none;
     font-size: 18px;
-    font-family: "Avenir";
-
+    font-family: 'Poppins', sans-serif;
 }
 
 .contact a:hover {
