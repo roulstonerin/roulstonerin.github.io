@@ -134,17 +134,6 @@ p.about-text {
     padding: 0px 50px;
 }
 
-/* .hero-right {
-    width: 24%;
-    height: auto;
-    display: block;
-    margin: auto;
-    border-radius: 50%;
-    float: right;
-    padding-right: 240px;
-    padding-top: 30px;
-} */
-
 .hero-right {
     width: 24%;
     float: right;
@@ -172,7 +161,7 @@ p.about-text {
     text-align: left;
     font-family: 'Poppins', sans-serif;
     margin: auto;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(186, 67, 105);
     padding-top: 80px;
