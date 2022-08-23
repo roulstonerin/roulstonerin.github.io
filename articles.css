@@ -53,7 +53,7 @@ h1 {
 }
 
 .recipe-image {
-    width: 45%;
+    width: 70%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -93,7 +93,6 @@ h1 {
     padding-bottom: 30px;
     margin: auto;
     border-radius: 30px;
-
 }
 
 .blurb-text {
@@ -135,14 +134,23 @@ p.about-text {
     padding: 0px 50px;
 }
 
-.hero-right {
-    width: 30%;
+/* .hero-right {
+    width: 24%;
     height: auto;
     display: block;
     margin: auto;
     border-radius: 50%;
     float: right;
-    padding-right: 100px;
+    padding-right: 240px;
+    padding-top: 30px;
+} */
+
+.hero-right {
+    width: 24%;
+    float: right;
+    margin-right: 350px;
+    margin-top: 0px;
+    border-radius: 70%;
 }
 
 .title-about {
