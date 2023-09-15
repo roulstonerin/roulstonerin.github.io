@@ -2,32 +2,20 @@
     "portfolio": [
         {
             "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwin, Jest",
+            "title": "Daily Grind Coffee Shop",
+            "description": "HTML, CSS, JavaScript, PHP, MySQL",
+            "url": "../portfolio/DailyGrind"
+        },
+        {
+            "cover": "/portfolio/1/two.png",
+            "title": "Health Canada",
+            "description": "Figma, UI/UX, User Research",
             "url": "http:/google.com"
         },
         {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwin, Jest",
-            "url": "http:/google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwin, Jest",
-            "url": "http:/google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwin, Jest",
-            "url": "http:/google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwin, Jest",
+            "cover": "/portfolio/1/three.png",
+            "title": "NeoFeed",
+            "description": "Figma, User Testing, Rapid Prototyping",
             "url": "http:/google.com"
         }
     ]

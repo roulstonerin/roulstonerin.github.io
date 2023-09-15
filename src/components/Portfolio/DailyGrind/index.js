@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import LaptopErin from '../../assets/images/me with computer.png';
 import Loader from 'react-loaders';
 
-const About = () => {
+const DailyGrind = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate');
     useEffect(() => {
@@ -53,5 +53,5 @@ const About = () => {
     )
 }
 
-export default About
+export default DailyGrind
 
