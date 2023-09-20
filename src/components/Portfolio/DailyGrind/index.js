@@ -1,57 +1,80 @@
+import { useRef } from 'react';
+import DailyGrindBanner from '../../../assets/images/DG Banner.png';
+import DailyGrindSite from '../../../assets/images/DailyGrindSite.png';
+import DailyGrindLogos from '../../../assets/images/dglogos.png';
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useState } from 'react';
-import LaptopErin from '../../assets/images/me with computer.png';
-import Loader from 'react-loaders';
+
 
 const DailyGrind = () => {
-
-    const [letterClass, setLetterClass] = useState('text-animate');
-    useEffect(() => {
-        const idTimeOut = setTimeout(() => {
-            setLetterClass('text-animate-hover')
-        }, 3000)
-
-        return () => clearTimeout(idTimeOut);
-    }, [])
+    const bgRef = useRef()
 
     return (
         <>
-            <div className="container about-page">
-                <div className="text-zone">
-                    <h1>
-                        <AnimatedLetters
-                            letterClass={letterClass}
-                            strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-                            idx={15}
-                        />
-                    </h1>
+            <div className="main-container">
+                <div className="banner-container" ref={bgRef}>
+                    <img src={DailyGrindBanner} className="hero" alt="Daily Grind Coffee Logo" width="134.75pt" height="323.625pt"></img>
                 </div>
-                <img className="laptop-Erin" src={LaptopErin} alt="Cartoon Erin with a laptop" width="235.25pt" height="360.75pt"></img>
+                <div className="project-title">Daily Grind Coffee Shop</div>
 
-                <div className="fakeMenu-container">
-                    <div className="terminal">
-                        <div className="fakeMenu">
-                            <div className="fakeButtons fakeClose"></div>
-                            <div className="fakeButtons fakeMinimize"></div>
-                            <div className="fakeButtons fakeZoom"></div>
-                        </div>
-                        <div className="fakeScreen">
-                            <p className="line1">$ I took my first Computer Science class in high school over 8 years ago, and since then
-                                have fallen in love with Programming and Design!</p>
-                            <p className="line2">$ I graduated from the Department
-                                of Systems Design Engineering at the University of Waterloo in 2022, and since then, have been working as a software engineer at Vivosonic.</p>
-                            <p className="line3">$ I have worked as a Software Engineer, Full-Stack Web Developer, and UI/UX Designer, using tools like TypeScript/JavaScript, C#, C++, Figma, React, and Angular to get big projects up and running.</p>
-                            <p className="line1">$ I am currently seeking new opportunities to further my career in Software Development. I would love to chat if you have any questions or would like to connect!</p>
-                            <p className="line4">&gt;<span class="cursor1">_</span></p>
-                        </div>
+                <div className="details-container">
+                    <div className="details-text">
+                        <b>Roles:</b> Web Developer, UI Designer, Content Creator, Photographer
+                        <br />
+                        <b>Context:</b> Rebrand Daily Grind Coffee Shop
+                        <br />
+                        <b>Timeline:</b> Jan. 2016 - Sept. 2018
+                        <br />
+                        <b>Tools:</b> Wireframing, Photoshop, HTML, CSS
+                    </div>
+                </div>
+
+                <div className="project-content">
+                    <h2>01 BACKGROUND</h2>
+                    <p>
+                        Daily Grind Coffee is a popular local coffee shop located in Winnipeg, Manitoba that serves a variety of
+                        homemade drinks, sandwiches, and soups. When I was hired in 2016, the restaurant did not have company branding or
+                        a website.
+                    </p>
+                    <br />
+
+                    <h3>OBJECTIVE:</h3>
+                    <p>
+                        Give a brand identity to the business and build a company website.
+                    </p>
+
+                    <p>Note: You can now see the deployed website I designed and coded live at
+                        <a href="https://dailygrindcoffee.ca/"> dailygrindcoffee.ca</a>
+                    </p>
+                    <br />
+
+                    <h2>02 DESIGN</h2>
+                    <p>
+                        Current trends for other popular community coffee shop websites were researched. A theme began to emerge,
+                        indicating that simplicity, elegance, and muted tones were preferred. Moving forward, this motivated the design decisions
+                        for both the company website and internal content management system.</p>
+                    <p>
+                        Different logo iterations were created. The final two logos were chosen due to their simplicity,
+                        readability, and ease
+                        of use on physical products such as takeout coffee cups and containers. Having two options would allow for
+                        the designer
+                        to pick the appropriate one depending on its use case.</p>
+                    <div className="banner-container" ref={bgRef}>
+                        <img src={DailyGrindLogos} className="hero" alt="Daily Grind Coffee Logo" width="134.75pt" height="323.625pt"></img>
+                    </div>
+                    <p>
+                        Photos of the coffee shop were taken, edited, and incorporated into the website to elicit a feeling of
+                        warmth and familiarity to the viewer. The menu was hardcoded to ensure usability for screen readers using HTML and CSS.
+                        CuteGrids, a responsive grid system, was also incorporated to enhance usability across different mobile devices.
+                    </p>
+                    <div className="banner-container" ref={bgRef}>
+                        <img src={DailyGrindSite} className="hero" alt="Daily Grind Website" width="134.75pt" height="323.625pt"></img>
                     </div>
                 </div>
             </div>
-            <Loader type="line-spin-fade-loader" />
+
         </>
     )
 }
 
-export default DailyGrind
+export default DailyGrind;
 
