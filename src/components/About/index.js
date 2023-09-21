@@ -3,6 +3,9 @@ import AnimatedLetters from '../AnimatedLetters';
 import { useEffect, useState } from 'react';
 import LaptopErin from '../../assets/images/me with computer.png';
 import Loader from 'react-loaders';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 
 const About = () => {
 
@@ -26,9 +29,22 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                </div>
-                <img className="laptop-Erin" src={LaptopErin} alt="Cartoon Erin with a laptop" width="235.25pt" height="360.75pt"></img>
 
+                    <ul>
+                        <li>
+                            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erinroulston/">
+                                <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                            </a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/roulstonerin">
+                                <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <img className="laptop-Erin" src={LaptopErin} alt="Cartoon Erin with a laptop" width="235.25pt" height="360.75pt"></img>
                 <div className="fakeMenu-container">
                     <div className="terminal">
                         <div className="fakeMenu">
