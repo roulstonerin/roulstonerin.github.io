@@ -2,7 +2,7 @@
 
     .text-zone {
         position: absolute;
-        left: 10%;
+        left: 20%;
         top: 50%;
         transform: translateY(-50%);
         width: 40%;
@@ -15,29 +15,6 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-
-        // &::before {
-        //     content: '<h1>';
-        //     font-family: 'La Belle Aurore';
-        //     color: #1F7C80;
-        //     font-size: 18px;
-        //     position: absolute;
-        //     margin-top: -40px;
-        //     left: 15px;
-        //     opacity: 0.6;
-        // }
-
-        // &::after {
-        //     content: '<h1/>';
-        //     font-family: 'La Belle Aurore';
-        //     color: #1F7C80;
-        //     font-size: 18px;
-        //     position: absolute;
-        //     margin-top: 18px;
-        //     margin-left: 20px;
-        //     animation: fadeIn 1s 1.7s backwards;
-        //     opacity: 0.6;
-        // }
 
         img {
             width: 32px;

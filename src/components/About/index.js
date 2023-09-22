@@ -56,7 +56,7 @@ const About = () => {
                             <p className="line1">$ I took my first Computer Science class in high school over 8 years ago, and since then
                                 have fallen in love with Programming and Design!</p>
                             <p className="line2">$ I graduated from the Department
-                                of Systems Design Engineering at the University of Waterloo in 2022, and since then, have been working as a software engineer at Vivosonic.</p>
+                                of Systems Design Engineering at the University of Waterloo in 2022, and since then, have been working as a Software Engineer at Vivosonic.</p>
                             <p className="line3">$ I have worked as a Software Engineer, Full-Stack Web Developer, and UI/UX Designer, using tools like TypeScript/JavaScript, C#, C++, Figma, React, and Angular to get big projects up and running.</p>
                             <p className="line1">$ I am currently seeking new opportunities to further my career in Software Development. I would love to chat if you have any questions or would like to connect!</p>
                             <p className="line4">&gt;<span class="cursor1">_</span></p>
