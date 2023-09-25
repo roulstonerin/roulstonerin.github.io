@@ -5,18 +5,6 @@
             "title": "Daily Grind Coffee Shop",
             "description": "HTML, CSS, JavaScript, PHP, MySQL",
             "url": "../portfolio/DailyGrind"
-        },
-        {
-            "cover": "/portfolio/1/two.png",
-            "title": "Health Canada",
-            "description": "Figma, UI/UX, User Research",
-            "url": "http:/google.com"
-        },
-        {
-            "cover": "/portfolio/1/three.png",
-            "title": "NeoFeed",
-            "description": "Figma, User Testing, Rapid Prototyping",
-            "url": "http:/google.com"
         }
     ]
 }
