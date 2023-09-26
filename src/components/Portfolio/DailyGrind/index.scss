@@ -1,0 +1,43 @@
+.main-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.hero {
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.details-container {
+    width: 32%;
+    height: auto;
+    display: block;
+    border: 3px solid rgba(176, 176, 176, 0.2);
+    background-color: white;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+
+
+    .details-text {
+        line-height: 30px;
+        font-size: 18px;
+    }
+}
+
+.project-content {
+    padding-bottom: 100px;
+}
